@@ -1,0 +1,33 @@
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# API credentials
+.env
+*.env
+secrets.*
+credentials.*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+~$*.xlsx
+
+# Private/raw Twitter data
+data/raw/
+codeswitch_outputs/
+private_results/
+results/token_level_analysis.csv
+results/candidate_switched_tokens.csv

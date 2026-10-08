@@ -1,0 +1,4 @@
+"dataset","unique_sampled_tweets","unique_recovered_tweets","unique_unavailable_tweets","recovery_rate","average_tagalog_percent","average_english_percent","average_other_percent"
+"English-major",561,320,241,0.5704,24.58,59.16,15.57
+"Tagalog-major",188,99,89,0.5266,58.20,29.82,11.46
+"Other-major",233,142,91,0.6094,7.27,35.58,56.63
