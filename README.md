@@ -1,6 +1,6 @@
 # Tagalog-English Code-Switch Analysis
 
-A computational linguistics project where parts of speech are observed to be code-switched at some frequency, using Tagalog and English, through Twitter (x) representing 
+A computational linguistics project analyzing Tagalog-English code-switching in multilingual Twitter data, with a focus on the parts of speech most frequently involved in switching.
 
 ## Research Question
 
@@ -29,6 +29,20 @@ Pipeline:
 - Excel
 - Twitter data APIs
 
+## Project status
+
+This repository contains code from a completed course research project.
+The scripts are preserved primarily for documentation and portfolio purposes,
+not as a production-ready package.
+
+Known limitations include:
+
+- Hard-coded dataset assumptions
+- Approximate Tagalog-English language identification
+- Use of spaCy's English model for code-switched text
+- Limited error handling
+- Raw tweet-level data excluded for privacy reasons
+
 ## Key Findings
 
 In Tagalog-dominant tweets, nouns and tokens classified as proper nouns
@@ -44,5 +58,8 @@ Tagalog-English text. Tagalog out-of-vocabulary tokens are therefore
 frequently misclassified as proper nouns, making the POS results
 approximate rather than gold-standard annotations.
 
+## Setup
+
+```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
