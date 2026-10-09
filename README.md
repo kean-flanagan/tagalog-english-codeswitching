@@ -58,8 +58,13 @@ Tagalog-English text. Tagalog out-of-vocabulary tokens are therefore
 frequently misclassified as proper nouns, making the POS results
 approximate rather than gold-standard annotations.
 
+## AI-disclosure
+
+Used solely for debugging assistance and subject-matter learning. All final implementation and code authorship are entirely my own.
+
 ## Setup
 
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+
